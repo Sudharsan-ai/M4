@@ -152,12 +152,14 @@ int main() {
        if(str[i]==' ') c++;
        i++;
    }while(str[i]!='\0');
+   if(str[i]=='\0')c++;
    printf("\nThe total number of words in the given string is: %d",c);
 }
 ```
 ## OUTPUT
 
-![image](https://github.com/user-attachments/assets/d82b982d-3eb0-4572-b843-a0c3c8d5cd48)
+![image](https://github.com/user-attachments/assets/90d690cf-5eb5-41d5-94f2-2a47ca536816)
+
 
 
 ## RESULT
